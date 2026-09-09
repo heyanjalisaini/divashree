@@ -219,7 +219,7 @@ export default function Home() {
         <div className="container footer-inner">
           <div className="footer-brand"><span className="brand-mark"><Flower2 size={18} /></span><div><strong>दिवाश्री</strong><span>छोटी सी, अनमोल सी।</span></div></div>
           <div className="footer-links"><span><Camera size={15} /> यादों का एल्बम</span><span><Music2 size={15} /> हँसी का संगीत</span><span><Gift size={15} /> ढेर सारा प्यार</span></div>
-          <a href="mailto:hello@divashree.example" className="footer-mail"><Mail size={16} /> एक संदेश भेजें</a>
+          <a href="mailto:heyanjalisaini@gmail.com" className="footer-mail"><Mail size={16} /> एक संदेश भेजें</a>
         </div>
         <div className="container footer-bottom"><span>दिल से बनाया गया, दिवाश्री के लिए ♡</span><BookOpen size={16} /></div>
       </footer>
