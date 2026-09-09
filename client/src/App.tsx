@@ -14,8 +14,8 @@ function Router() {
       <Route path={"/divashree"} component={Home} />
       <Route path={"/divashree/"} component={Home} />
       <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
+      {/* GitHub Pages serves this single-page site below /divashree/; keep Home as the final fallback. */}
+      <Route component={Home} />
     </Switch>
   );
 }
