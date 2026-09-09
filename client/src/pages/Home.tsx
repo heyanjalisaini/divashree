@@ -113,7 +113,7 @@ export default function Home() {
           <div className="hero-side" aria-label="दिवाश्री की playful illustration">
             <div className="sun-badge"><span>little</span><strong>joy</strong></div>
             <div className="hero-sticker-wrap">
-              <img src="/divashree-sticker.png" alt="मुस्कुराता हुआ सूरज और बादल" className="hero-sticker" />
+              <img src="/divashree/divashree-sticker.png" alt="मुस्कुराता हुआ सूरज और बादल" className="hero-sticker" />
             </div>
             <div className="floating-chip chip-one"><Baby size={16} /> 1.5 साल</div>
             <div className="floating-chip chip-two"><Heart size={15} fill="currentColor" /> 100% प्यारी</div>
@@ -193,7 +193,7 @@ export default function Home() {
           </div>
           <figure className="album-frame">
             <div className="album-frame-top"><span>दिवाश्री • memories</span><Heart size={16} fill="currentColor" /></div>
-            <img src="/divashree-album.jpg" alt="दिवाश्री के बचपन के प्यारे पलों का फोटो collage" />
+            <img src="/divashree/divashree-album.jpg" alt="दिवाश्री के बचपन के प्यारे पलों का फोटो collage" />
             <figcaption>छोटी-छोटी तस्वीरें, बहुत सारी बड़ी खुशियाँ।</figcaption>
           </figure>
         </div>
@@ -209,7 +209,7 @@ export default function Home() {
               <p>{message}</p>
               <button type="button" className="button button-light" onClick={sendMagic}><WandSparkles size={17} /> जादू भेजें <span className="wish-count">{magicCount || ""}</span></button>
             </div>
-            <div className="wish-art"><img src="/divashree-sticker.png" alt="खुशमिज़ाज सूरज का sticker" /><div className="wish-star"><Star size={31} fill="currentColor" /></div></div>
+            <div className="wish-art"><img src="/divashree/divashree-sticker.png" alt="खुशमिज़ाज सूरज का sticker" /><div className="wish-star"><Star size={31} fill="currentColor" /></div></div>
             <div className="wish-deco deco-right"><PartyPopper size={35} /></div>
           </div>
         </div>
